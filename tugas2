@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int s;
+	int volume;
+	
+	cout<<"Masukkan sisi kubus :";
+	cin>>s;
+	
+	volume = s*s*s;
+	cout<<"Volume kubus :"<<volume<<endl;
+	
+	return 0; 
+}
